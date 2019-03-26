@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "703457805620",
+    "firebase_url": "https://kotlincoverflowfirebase-34846.firebaseio.com",
+    "project_id": "kotlincoverflowfirebase-34846",
+    "storage_bucket": "kotlincoverflowfirebase-34846.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703457805620:android:baa71dea9a970086",
+        "android_client_info": {
+          "package_name": "com.epiklp.kotlincoverflowfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703457805620-a6tt1f4a3248g5e2ff0gajfiuej57jna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epiklp.kotlincoverflowfirebase",
+            "certificate_hash": "7792280231697fbd181f9858c5ee25a5753c6783"
+          }
+        },
+        {
+          "client_id": "703457805620-g87kan073o356a8opefunj54ck0flefi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ71ZmIXdeDPC_7TXrz9wcMU3g43BBg50"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703457805620-g87kan073o356a8opefunj54ck0flefi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

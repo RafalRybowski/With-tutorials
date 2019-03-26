@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+	<it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/cover_flow"
+			app:reflectionGap="0px"
+			app:rotationThreshold="0.5"
+			app:scalingThreshold="0.5"
+			app:spacing="0.6">
+
+	</it.moondroid.coverflow.components.ui.containers.FeatureCoverFlow>
+	
+	<TextSwitcher
+			android:id="@+id/textSwitcher"
+			android:paddingBottom="16dp"
+			android:layout_alignParentBottom="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+	</TextSwitcher>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+package com.epiklp.androidcomicreader.Model;
+
+public class Banner {
+    private int ID;
+    private String Link;
+
+    public Banner() {}
+
+    public Banner(int ID, String link) {
+        this.ID = ID;
+        Link = link;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public String getLink() {
+        return Link;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public void setLink(String link) {
+        Link = link;
+    }
+}
